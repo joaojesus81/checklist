@@ -1,0 +1,21 @@
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  margin: 0;
+}
+
+#unchecked-item {
+  list-style-type: symbols(cyclic "\2610");
+}
+
+#checked-item {
+  list-style-type: symbols(cyclic "\2611");
+  text-decoration: line-through;
+}
+
+#overdue-item {
+  list-style-type: symbols(cyclic "\2610");
+  color: red;
+}
